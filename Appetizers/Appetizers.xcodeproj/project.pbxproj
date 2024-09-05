@@ -18,6 +18,10 @@
 		7B229D7F2C8A1FF000323193 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B229D7E2C8A1FF000323193 /* AppetizerListCell.swift */; };
 		7B229D812C8A20CD00323193 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B229D802C8A20CD00323193 /* NetworkManager.swift */; };
 		7B229D832C8A21A800323193 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B229D822C8A21A800323193 /* APError.swift */; };
+		7B229D852C8A3C5B00323193 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B229D842C8A3C5B00323193 /* AppetizerListViewModel.swift */; };
+		7B229D872C8A3DCE00323193 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B229D862C8A3DCD00323193 /* Alert.swift */; };
+		7B229D892C8A418300323193 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B229D882C8A418300323193 /* LoadingView.swift */; };
+		7B229D8B2C8A423900323193 /* Color + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B229D8A2C8A423900323193 /* Color + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		7B229D7E2C8A1FF000323193 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		7B229D802C8A20CD00323193 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		7B229D822C8A21A800323193 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		7B229D842C8A3C5B00323193 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		7B229D862C8A3DCD00323193 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7B229D882C8A418300323193 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		7B229D8A2C8A423900323193 /* Color + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +78,13 @@
 				7B229D682C8A132B00323193 /* AppetizerTabView.swift */,
 				7B229D7C2C8A1B5700323193 /* Appetizer.swift */,
 				7B229D802C8A20CD00323193 /* NetworkManager.swift */,
+				7B229D862C8A3DCD00323193 /* Alert.swift */,
+				7B229D842C8A3C5B00323193 /* AppetizerListViewModel.swift */,
 				7B229D7B2C8A160B00323193 /* Views */,
 				7B229D6A2C8A132C00323193 /* Assets.xcassets */,
 				7B229D6C2C8A132C00323193 /* Preview Content */,
 				7B229D7E2C8A1FF000323193 /* AppetizerListCell.swift */,
+				7B229D8A2C8A423900323193 /* Color + Ext.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -89,6 +100,7 @@
 		7B229D7B2C8A160B00323193 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7B229D882C8A418300323193 /* LoadingView.swift */,
 				7B229D742C8A15E100323193 /* AppetizerListView.swift */,
 				7B229D782C8A15F600323193 /* AccountView.swift */,
 				7B229D762C8A15E900323193 /* OrderView.swift */,
@@ -169,10 +181,14 @@
 				7B229D7D2C8A1B5700323193 /* Appetizer.swift in Sources */,
 				7B229D832C8A21A800323193 /* APError.swift in Sources */,
 				7B229D7F2C8A1FF000323193 /* AppetizerListCell.swift in Sources */,
+				7B229D852C8A3C5B00323193 /* AppetizerListViewModel.swift in Sources */,
 				7B229D692C8A132B00323193 /* AppetizerTabView.swift in Sources */,
+				7B229D892C8A418300323193 /* LoadingView.swift in Sources */,
 				7B229D772C8A15E900323193 /* OrderView.swift in Sources */,
 				7B229D812C8A20CD00323193 /* NetworkManager.swift in Sources */,
 				7B229D672C8A132B00323193 /* AppetizersApp.swift in Sources */,
+				7B229D872C8A3DCE00323193 /* Alert.swift in Sources */,
+				7B229D8B2C8A423900323193 /* Color + Ext.swift in Sources */,
 				7B229D752C8A15E100323193 /* AppetizerListView.swift in Sources */,
 				7B229D792C8A15F600323193 /* AccountView.swift in Sources */,
 			);
