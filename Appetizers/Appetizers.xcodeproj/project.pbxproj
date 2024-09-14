@@ -32,6 +32,7 @@
 		7B5D6A952C8C6CB4002095BE /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6A942C8C6CB4002095BE /* EmptyState.swift */; };
 		7B5D6A972C8C7072002095BE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6A962C8C7072002095BE /* Order.swift */; };
 		7B5D6A992C8C78C4002095BE /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6A982C8C78C4002095BE /* CustomModifiers.swift */; };
+		7B5D6AF62C9513AB002095BE /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D6AF52C9513AB002095BE /* Date + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		7B5D6A942C8C6CB4002095BE /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		7B5D6A962C8C7072002095BE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		7B5D6A982C8C78C4002095BE /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		7B5D6AF52C9513AB002095BE /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				7B229D8A2C8A423900323193 /* Color + Ext.swift */,
 				7B5D6A8F2C8C5AF3002095BE /* String + Ext.swift */,
+				7B5D6AF52C9513AB002095BE /* Date + Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				7B229D892C8A418300323193 /* LoadingView.swift in Sources */,
 				7B229DE82C8B8D5D00323193 /* APButton.swift in Sources */,
 				7B229D772C8A15E900323193 /* OrderView.swift in Sources */,
+				7B5D6AF62C9513AB002095BE /* Date + Ext.swift in Sources */,
 				7B229D812C8A20CD00323193 /* NetworkManager.swift in Sources */,
 				7B229D672C8A132B00323193 /* AppetizersApp.swift in Sources */,
 				7B229DD42C8B792C00323193 /* RemoteImage.swift in Sources */,
@@ -484,6 +488,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,6 +522,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
